@@ -7,7 +7,7 @@ import {
   TrendingUp, ArrowUpRight, Copy, Share2, QrCode, Sparkles, Crown, Gem, Award,
   Users, Wallet, Target, Repeat, Flame, Trophy, Zap, Clock, Play, Download,
   Instagram, MessageCircle, Image as ImageIcon, Video, FileText, ChevronRight,
-  Building2, ShieldCheck, ArrowRight, CheckCircle2, BadgeDollarSign,
+  Building2, ShieldCheck, ArrowRight, CheckCircle2, BadgeDollarSign, GraduationCap,
 } from "lucide-react";
 import { Sidebar } from "@/components/vincis/Sidebar";
 import { Topbar } from "@/components/vincis/Topbar";
