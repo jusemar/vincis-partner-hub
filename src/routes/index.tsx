@@ -1,16 +1,14 @@
 import { createFileRoute } from "@tanstack/react-router";
-import { VincisDashboard } from "@/components/vincis/Dashboard";
+import { VincisLanding } from "@/components/vincis/Landing";
 
 export const Route = createFileRoute("/")({
-  component: Index,
+  component: VincisLanding,
   head: () => ({
     meta: [
-      { title: "Vincis · Partner Suite" },
-      { name: "description", content: "Construa renda recorrente vitalícia indicando clientes na Vincis." },
+      { title: "Vincis · Construa renda recorrente vitalícia" },
+      { name: "description", content: "A plataforma de parceiros que transforma indicações em renda recorrente. Ranking, níveis, simulador e painel premium." },
+      { property: "og:title", content: "Vincis · Renda recorrente vitalícia" },
+      { property: "og:description", content: "Indique, escale e seja reconhecido. Comissões recorrentes, gamificação e gestão profissional." },
     ],
   }),
 });
-
-function Index() {
-  return <VincisDashboard />;
-}
